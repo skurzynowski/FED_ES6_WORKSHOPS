@@ -1,17 +1,16 @@
 # let i const
 
-
-## Hoisting
+## Hoisting a raczej jego brak
 
 ### Zmień `var` na `const` i zobacz wynik w konsoli
 
 ```javascript
-function logName(){
-   console.log(name)  
+function logName() {
+  console.log(name);
 }
+console.log(logName());
 var name = "FED";
 ```
-
 
 ## Zasięg blokowy
 
@@ -26,17 +25,31 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-
 ### Napraw kod
 
 ```javascript
 const testNumber = 23;
 
-if( testNumber > 20){
+if (testNumber > 20) {
   let result = `Większa niż 20`;
-}else{
+} else {
   let result = `Mniejsza niż 20`;
 }
 
 console.log(result);
+```
+
+## Zasięg blokowy a nadpisywanie
+
+### `const` czy tylko jeden? Jak sądzisz czy będzie bład?
+
+```javascript
+const name = "FED";
+
+if( true ){
+   const name = "IN_LOOP_FED";
+   console.log(`W pętli:  ${name}`);
+}
+
+console.log(`Poza pętlą:  ${name}`);
 ```
