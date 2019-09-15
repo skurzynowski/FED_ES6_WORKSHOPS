@@ -18,11 +18,11 @@ var name = "FED";
 ### Napraw kod używając jedynie `let` lub `const`
 
 ```javascript
-for(var i = 0; i < 5; i++){
-   console.log(i);
-}
-for(var i = 0; i < 5; i++){
-   console.log(i);
+for (var i = 0; i < 5; i++) {
+  console.log(`Petla nr 1 ${i}`);
+  for (var i = 0; i < 5; i++) {
+    console.log(`Petla nr 2 ${i}`);
+  }
 }
 ```
 
@@ -30,9 +30,9 @@ for(var i = 0; i < 5; i++){
 ### Napraw kod
 
 ```javascript
-const number = 23;
+const testNumber = 23;
 
-if( number > 20){
+if( testNumber > 20){
   let result = `Większa niż 20`;
 }else{
   let result = `Mniejsza niż 20`;
