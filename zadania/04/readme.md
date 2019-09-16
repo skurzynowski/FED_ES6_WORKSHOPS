@@ -1,7 +1,5 @@
 # `...a` Operator rozsypania i reszty ( spread and rest )
 
-
-
 ## Rozsypanie napisu
 
 ### Przypisz do stałej napis `Hello FED` i rozsyp go w `console.log`
@@ -21,7 +19,7 @@
 
 ## Rozsypanie tablicy do argumentów funkcji
 
-### Przekształć funkcję w strzłkową i użyj rozsypanej tablicy jako argument podczas wywołania
+### Przekształć funkcję w strzałkową i użyj rozsypanej tablicy jako argument podczas wywołania
 
 ```javascript
 const numbers = [20, 22];
@@ -32,4 +30,13 @@ function add(a, b) {
   return a + b
 }
 //wywołanie w console log
+```
+
+## Operator reszty
+
+### Stwórz funkcję strzałkową `logAmount` która policzy wszystkie argumenty przekazane podczas wywołania i wyświetli je w konsoli
+
+```javascript
+  logAmount(1,5,7,9,5); //5
+  logAmount(1,7,9,5); //4
 ```
