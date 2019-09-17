@@ -14,7 +14,7 @@
 
 ```javascript
   const user = [ 'Bruce','actor' 'Willis' ];
-  const updatedUser = [ 'Bruce','amazing actor' 'Willis' ];
+  // [ 'Bruce','amazing actor' 'Willis' ];
 ```
 
 ## Jak ominąć mutowanie w obiekcie?
