@@ -1,4 +1,4 @@
-# Obiekt literał
+# Obiekt `{ }`
 
 
 ## Skrótowy zapis klucza i wartości
