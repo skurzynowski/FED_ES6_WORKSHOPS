@@ -1,5 +1,7 @@
 # Destrukturyzacja
 
+> Iterator needed
+
 ## Przypisanie z tablicy dwóch kolejnych elementów
 
 ### Przypisz do stałej `name` i `surname` dwa pierwsze elementy tablicy
