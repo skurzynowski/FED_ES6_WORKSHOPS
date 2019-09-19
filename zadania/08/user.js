@@ -1,14 +1,11 @@
 export const getName = (userObj) => userObj.name;
 export const profession = "ACTOR";
+export const age = 25;
 
-class User{
-  constructor(name){
-     this.name = name;
-  }
-}
+const printAge = ( age ) => { console.log(`Wiek wynosi ${age}`) }
 
-export default User;
+export default getName;
 
 
 //Druga wersja eksportu
-//export {User as default, getName, proffesion};
+//export {getName as default, age, proffesion};

@@ -2,53 +2,54 @@
 
 ## Import
 
-### Do pliku `index.js` zaimportuj `getName` oraz `User` tak aby wykonał się kod poniżej
+> import defaultExport from "module-name";
+
+>import * as name from "module-name";
+
+>import { export1 } from "module-name";
+
+>import { export1 as alias1 } from "module-name";
+
+>import { export1 , export2 } from "module-name";
+
+
+### Do pliku `index.js` zaimportuj `getName` tak aby wykonał się kod poniżej
 
 ```javascript
-const Admin = new User("Wil");
-const Name = getName(Admin);
+const name = getName();
 
-console.log(Name);
+console.log(name);
 ```
 
 ## Zmiana nazwy przy imporcie
 
-###
+### Zmień nazwę importowanej funkcji na `getUserName` tak aby wykonał sie kod poniżej
 
 ```javascript
-const superKey = "name";
-const superValue = "Bruce";
+const name = getUserName();
+
+console.log(name);
 ```
 
 ## Import wszystkiego
 
-### 
+### Zaimportuj wszystko z pliku używając `*` i wykonaj następujący kod
 
 ```javascript
-const name = "Bruce";
-const surname = "Willis";
+console.log(all.profession);
+console.log(all.age);
 ```
 
-## Metoda `get`
+## Exportowanie
 
-> Nie może pojawiać się w itarale objektu z innym getem lub właściwością o takich samych nazwach ({ get x() { }, get x() { } } oraz { x: ..., get x() { } } są niedozwolone).
-
-### Dopisz metodę pobierającą `name`
+### Wyeksportuj funkcję `printAge` z pliku `user.js` następnie zaimportuj i wywołaj ją w `index.jx` z parametrem `42`
 
 ```javascript
-  const user = {
-  name : 'Bruce';
-    ...
-  }
+ const printAge = ( age ) => { console.log(`Wiek wynosi ${age}`) }
 ```
 
-## Metoda `set`
-
-### Dopisz metodę ustawiającą `name`
+### Wyeksportuj funkcję `printAge` jako `default` z pliku `user.js` następnie zaimportuj i wywołaj ją w `index.jx` z parametrem `42`
 
 ```javascript
-  const user = {
-  name : 'Bruce';
-    ...
-  }
+ const printAge = ( age ) => { console.log(`Wiek wynosi ${age}`) }
 ```
