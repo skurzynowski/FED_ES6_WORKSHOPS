@@ -1,5 +1,5 @@
-# Symbole
+## Symbole
 
-## Tworzenie
+### Tworzenie
 
-### Stwórz symbol
+#### Stwórz symbol

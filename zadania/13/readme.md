@@ -1,30 +1,38 @@
-# Obietnice
+## Obietnice
 
-## Prosta obietnica
+### Prosta obietnica
 
-### Zmień funkcję aby zwracałą obietnicę sprawdź jej stan
+#### Zmień funkcję aby zwracała obietnicę sprawdź jej stan
 
 ```javascript
   const getPromise = () => {}
 ```
 
 
-## `then` i co wtedy??
+### Statyczne rozwiązanie i odrzucenia
 
-### Zmień funkcję aby zwracałą obietnicę sprawdź jej stan
+#### Użyj statycznej metody `resolve` i `reject` w poniższej funkcji tak aby metoda zwracała rozwiązaną lub odrzuconą obietnicę
 
 ```javascript
-const getPromise = () => {
-  return new Promise((res,rej)=>{
-    setTimeout(
-      () => {
-        Date.now() % 2 ? res('parzysta') : res('nieparzysta')
-      },
-      1000
-    )
-  });
-}
+  const getPromise = () => {}
+```
 
-console.log(getPromise());
-getPromise()
+### `then` i co wtedy??
+
+#### Poniższa funkcja zwraca obiekt typu `Promise`. Pobierz z niego dane oraz obsłuż ewentualny błąd.
+
+```javascript
+import {getUser} from '../userApi';
+
+getUser();
+```
+
+### `then` jako łańcuchy
+
+#### Do poprzedniego zadania dopisz kolejną funkjcję `then` tak aby uzyskała dane z obietnicy
+
+```javascript
+import {getUser} from '../userApi';
+
+getUser();
 ```

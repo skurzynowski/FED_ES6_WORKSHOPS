@@ -1,24 +1,24 @@
-# Iteratory
+## Iteratory
 
-## Itarator w napisie
+### Itarator w napisie
 
-### Użyj iteratora występującego napisie `ITERATOR`;
+#### Użyj iteratora występującego napisie `ITERATOR`;
 
 ```javascript
 const napis = "ITERATOR";
 ```
 
-## Itarator w tablicy
+### Itarator w tablicy
 
-### Użyj iteratora występującego tablicy
+#### Użyj iteratora występującego tablicy
 
 ```javascript
 const friends = ["Leonard", "Stan", "Sheldon"];
 ```
 
-## Itarator w literale obiektu
+### Itarator w literale obiektu
 
-### Do podanego obiektu dopisz iterator następnie sprawdź czy będziesz mógł użyć rozsypania na obiekcie
+#### Do podanego obiektu dopisz iterator następnie sprawdź czy będziesz mógł użyć rozsypania na obiekcie
 
 ```javascript
 const user = {
@@ -26,9 +26,9 @@ const user = {
 };
 ```
 
-## Itarator w definicji klasy
+### Itarator w definicji klasy
 
-### Do podanej klasy dopisz iterator następnie stwórz jej instancję i rozsyp do konsoli
+#### Do podanej klasy dopisz iterator następnie stwórz jej instancję i rozsyp do konsoli
 
 ```javascript
 class User {

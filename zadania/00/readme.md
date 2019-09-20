@@ -1,9 +1,9 @@
-# Rozgrzewka
+## Rozgrzewka
 
 
-## Filtrowanie
+### Filtrowanie
 
-### W zmiennej result jest tablica z Java i Javascript
+#### W zmiennej result jest tablica z Java i Javascript
 
 ```javascript
 const ex1 = ["Java", "javascript", "Python", "C++"];
@@ -13,9 +13,9 @@ console.log(ex1_result);//[ 'Java', 'javascript' ]
 ```
 
 
-## Mapowanie
+### Mapowanie
 
-### W zmiennej result jest tablica z nazwami z dużych liter (uppercase)
+#### W zmiennej result jest tablica z nazwami z dużych liter (uppercase)
 
 ```javascript
 const ex2 = ["Java", "Javascript", "Python", "C++"];
@@ -25,9 +25,9 @@ console.log(ex2_result);//[ 'JAVA', 'JAVASCRIPT', 'PYTHON', 'C++' ]
 ```
 
 
-## Redukowanie
+### Redukowanie
 
-### W zmiennej result jest suma długości wszystkich elementów tablicy
+#### W zmiennej result jest suma długości wszystkich elementów tablicy
 
 ```javascript
 const ex3 = ["Java", "Javascript", "Python", "C++"];

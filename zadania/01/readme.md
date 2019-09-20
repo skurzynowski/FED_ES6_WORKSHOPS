@@ -1,8 +1,8 @@
-# let i const
+## let i const
 
-## Hoisting a raczej jego brak
+### Hoisting a raczej jego brak
 
-### Zmień `var` na `const` i zobacz wynik w konsoli
+#### Zmień `var` na `const` i zobacz wynik w konsoli
 
 ```javascript
 function logName() {
@@ -12,9 +12,9 @@ console.log(logName());
 var name = "FED";
 ```
 
-## Zasięg blokowy
+### Zasięg blokowy
 
-### Napraw kod używając jedynie `let` lub `const`
+#### Napraw kod używając jedynie `let` lub `const`
 
 ```javascript
 for (var i = 0; i < 5; i++) {
@@ -25,7 +25,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-### Napraw kod
+#### Napraw kod
 
 ```javascript
 const testNumber = 23;
@@ -39,9 +39,9 @@ if (testNumber > 20) {
 console.log(result);
 ```
 
-## Zasięg blokowy a nadpisywanie
+### Zasięg blokowy a nadpisywanie
 
-### `const` czy tylko jeden? Jak sądzisz czy będzie bład?
+#### `const` czy tylko jeden? Jak sądzisz czy będzie bład?
 
 ```javascript
 const name = "FED";

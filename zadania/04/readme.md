@@ -1,25 +1,25 @@
-# `...a` Operator rozsypania i reszty ( spread and rest )
+## `...a` Operator rozsypania i reszty ( spread and rest )
 
-## Rozsypanie napisu
+### Rozsypanie napisu
 
-### Przypisz do stałej napis `Hello FED` i rozsyp go w `console.log`
+#### Przypisz do stałej napis `Hello FED` i rozsyp go w `console.log`
 
 ```javascript
 
 ```
 
-## Rozsypanie tablicy
+### Rozsypanie tablicy
 
-### Stwórz tablicę `users` skłądającą się z tablic `admins` i `writers` oraz dodatkowego elementu o wartości `Helm`
+#### Stwórz tablicę `users` skłądającą się z tablic `admins` i `writers` oraz dodatkowego elementu o wartości `Helm`
 
 ```javascript
    const admins = ['Sebastian', 'Robert'];
    const writers = ['Stanislav', 'Vladimir'];
 ```
 
-## Rozsypanie tablicy do argumentów funkcji
+### Rozsypanie tablicy do argumentów funkcji
 
-### Przekształć funkcję w strzałkową i użyj rozsypanej tablicy jako argument podczas wywołania
+#### Przekształć funkcję w strzałkową i użyj rozsypanej tablicy jako argument podczas wywołania
 
 ```javascript
 const numbers = [20, 22];
@@ -32,9 +32,9 @@ function add(a, b) {
 //wywołanie w console log
 ```
 
-## Operator reszty
+### Operator reszty
 
-### Stwórz funkcję strzałkową `logAmount` która policzy wszystkie argumenty przekazane podczas wywołania i wyświetli je w konsoli
+#### Stwórz funkcję strzałkową `logAmount` która policzy wszystkie argumenty przekazane podczas wywołania i wyświetli je w konsoli
 
 ```javascript
   logAmount(1,5,7,9,5); //5

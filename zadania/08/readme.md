@@ -1,6 +1,6 @@
-# Moduły
+## Moduły
 
-## Import
+### Import
 
 > import defaultExport from "module-name";
 
@@ -13,7 +13,7 @@
 >import { export1 , export2 } from "module-name";
 
 
-### Do pliku `index.js` zaimportuj `getName` tak aby wykonał się kod poniżej
+#### Do pliku `index.js` zaimportuj `getName` tak aby wykonał się kod poniżej
 
 ```javascript
 const name = getName();
@@ -21,9 +21,9 @@ const name = getName();
 console.log(name);
 ```
 
-## Zmiana nazwy przy imporcie
+### Zmiana nazwy przy imporcie
 
-### Zmień nazwę importowanej funkcji na `getUserName` tak aby wykonał sie kod poniżej
+#### Zmień nazwę importowanej funkcji na `getUserName` tak aby wykonał sie kod poniżej
 
 ```javascript
 const name = getUserName();
@@ -31,24 +31,24 @@ const name = getUserName();
 console.log(name);
 ```
 
-## Import wszystkiego
+### Import wszystkiego
 
-### Zaimportuj wszystko z pliku używając `*` i wykonaj następujący kod
+#### Zaimportuj wszystko z pliku używając `*` i wykonaj następujący kod
 
 ```javascript
 console.log(all.profession);
 console.log(all.age);
 ```
 
-## Exportowanie
+### Exportowanie
 
-### Wyeksportuj funkcję `printAge` z pliku `user.js` następnie zaimportuj i wywołaj ją w `index.jx` z parametrem `42`
+#### Wyeksportuj funkcję `printAge` z pliku `user.js` następnie zaimportuj i wywołaj ją w `index.jx` z parametrem `42`
 
 ```javascript
  const printAge = ( age ) => { console.log(`Wiek wynosi ${age}`) }
 ```
 
-### Wyeksportuj funkcję `printAge` jako `default` z pliku `user.js` następnie zaimportuj i wywołaj ją w `index.jx` z parametrem `42`
+#### Wyeksportuj funkcję `printAge` jako `default` z pliku `user.js` następnie zaimportuj i wywołaj ją w `index.jx` z parametrem `42`
 
 ```javascript
  const printAge = ( age ) => { console.log(`Wiek wynosi ${age}`) }
