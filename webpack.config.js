@@ -1,5 +1,5 @@
 const path = require("path");
-const entryPath = "zadania/14";
+const entryPath = "zadania/00";
 const entryFile = "index.js";
 
 module.exports = {
