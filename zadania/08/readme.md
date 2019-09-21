@@ -16,7 +16,7 @@
 #### Do pliku `index.js` zaimportuj `getName` tak aby wykonał się kod poniżej
 
 ```javascript
-const name = getName();
+const name = getName(obj);
 
 console.log(name);
 ```

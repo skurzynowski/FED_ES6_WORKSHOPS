@@ -1,6 +1,5 @@
 ## Obiekt `{ }`
 
-
 ### Skrótowy zapis klucza i wartości
 
 #### Stwórz obiekt z kluczami `name` i `surname` używając podanych wartości

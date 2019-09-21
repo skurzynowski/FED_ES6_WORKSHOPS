@@ -1,9 +1,9 @@
-const name = "Seba poza funkcją";
 
-function print(str,supers){
-    console.log(str, supers);
+const superKey = "name";
+const superValue = "Bruce";
 
-    return 'test'
+const obj = {
+  [superKey] : superValue
 }
 
-console.log(print`  testNumber ${name} tył`);
+obj.value = 'fsdfsd'
