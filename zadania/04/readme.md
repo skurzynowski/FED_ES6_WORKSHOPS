@@ -2,6 +2,8 @@
 
 ### Rozsypanie napisu
 
+> kolejność
+
 #### Przypisz do stałej napis `Hello FED` i rozsyp go w `console.log`
 
 ```javascript

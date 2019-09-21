@@ -25,21 +25,23 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-#### Napraw kod
+#### 2. Napraw kod
 
 ```javascript
 const testNumber = 23;
 
+let result;
+
 if (testNumber > 20) {
-  let result = `Większa niż 20`;
+  result = `Większa niż 20`;
 } else {
-  let result = `Mniejsza niż 20`;
+  result = `Mniejsza niż 20`;
 }
 
 console.log(result);
 ```
 
-### Zasięg blokowy a nadpisywanie
+### 3. Zasięg blokowy a nadpisywanie
 
 #### `const` czy tylko jeden? Jak sądzisz czy będzie bład?
 

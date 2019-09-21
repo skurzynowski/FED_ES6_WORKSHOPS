@@ -1,14 +1,11 @@
 ## Destrukturyzacja
 
-> Iterator needed
-
 ### Przypisanie z tablicy dwóch kolejnych elementów
 
 #### Przypisz do stałej `name` i `surname` dwa pierwsze elementy tablicy
 
 ```javascript
   const user = [ 'Bruce', 'Willis' ];
-
 ```
 
 ### Przypisanie z tablicy dwóch elementów z gapą
@@ -16,7 +13,7 @@
 #### Przypisz do stałej `name` i `surname`  takie wartości jak w zadaniu powyżej
 
 ```javascript
-  const user = [ 'Bruce','actor' 'Willis' ];
+  const user = [ 'Bruce', 'actor', 'Willis' ];
 ```
 
 ### Przypisanie z obiektu
@@ -42,3 +39,6 @@
 ```javascript
   const user = { actor : { name:'Bruce', surname: 'Willis' } };
 ```
+
+### Wartośc domyślna
+....

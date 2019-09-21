@@ -1,6 +1,5 @@
 ## Rozgrzewka
 
-
 ### Filtrowanie
 
 #### W zmiennej result jest tablica z Java i Javascript
